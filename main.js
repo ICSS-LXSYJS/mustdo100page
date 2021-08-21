@@ -283,7 +283,7 @@ class AppComponent {
         // 2: name
         // 3: list
         // 4: result
-        this.step = 4;
+        this.step = 1;
     }
     ngOnInit() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
