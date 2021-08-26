@@ -588,7 +588,7 @@ function ResultComponent_div_4_Template(rf, ctx) { if (rf & 1) {
     const ques_r5 = ctx.$implicit;
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r0.mustdoSerivce.getCoordinate(ques_r5), ";");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r0.mustdoSerivce.getCoordinate2(ques_r5, "questions2"), ";");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ques_r5.title);
 } }
@@ -607,7 +607,7 @@ function ResultComponent_div_5_Template(rf, ctx) { if (rf & 1) {
     const ques_r6 = ctx.$implicit;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r1.mustdoSerivce.getCoordinate2(ques_r6, "questions2"), ";");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r1.mustdoSerivce.getCoordinate2(ques_r6, "questions3"), ";");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ques_r6.title);
 } }
@@ -626,7 +626,7 @@ function ResultComponent_div_6_Template(rf, ctx) { if (rf & 1) {
     const ques_r7 = ctx.$implicit;
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r2.mustdoSerivce.getCoordinate2(ques_r7, "questions3"), ";");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r2.mustdoSerivce.getCoordinate2(ques_r7, "questions4"), ";");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ques_r7.title);
 } }
@@ -645,7 +645,7 @@ function ResultComponent_div_7_Template(rf, ctx) { if (rf & 1) {
     const ques_r8 = ctx.$implicit;
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r3.mustdoSerivce.getCoordinate2(ques_r8, "questions4"), ";");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMapInterpolate1"]("", ctx_r3.mustdoSerivce.getCoordinate(ques_r8), ";");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ques_r8.title);
 } }
@@ -727,7 +727,7 @@ class ResultComponent {
     }
 }
 ResultComponent.ɵfac = function ResultComponent_Factory(t) { return new (t || ResultComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_mustdo_service__WEBPACK_IMPORTED_MODULE_4__["MustdoService"])); };
-ResultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ResultComponent, selectors: [["app-result"]], inputs: { queryParams: "queryParams", mustdo: "mustdo" }, decls: 15, vars: 5, consts: [["id", "result-container", 1, "container-fluid"], [1, "row"], ["src", "./assets/result-title.jpg", 1, "w-100"], ["class", "col-6 d-flex justify-content-center align-items-center", 4, "ngFor", "ngForOf"], ["src", "./assets/result-footer.jpg", 1, "w-100"], [4, "ngIf"], [1, "row", "mt-2", "bg-dark"], [1, "col-12", "d-flex", "justify-content-center", "align-items-center"], [1, "btn", "btn-primary", 3, "click"], [1, "col-6", "d-flex", "justify-content-center", "align-items-center"], [1, "card", 2, "width", "150px", "height", "200px"], [1, "ques-img", "mt-1"], [2, "text-align", "center"], [1, "card-text"], [1, "ques-img-2", "mt-1"], [1, "ques-img-3", "mt-1"], [1, "ques-img-4", "mt-1"], [3, "dataUrl"]], template: function ResultComponent_Template(rf, ctx) { if (rf & 1) {
+ResultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ResultComponent, selectors: [["app-result"]], inputs: { queryParams: "queryParams", mustdo: "mustdo" }, decls: 15, vars: 5, consts: [["id", "result-container", 1, "container-fluid"], [1, "row"], ["src", "./assets/result-title.jpg", 1, "w-100"], ["class", "col-6 d-flex justify-content-center align-items-center", 4, "ngFor", "ngForOf"], ["src", "./assets/result-footer.jpg", 1, "w-100"], [4, "ngIf"], [1, "row", "mt-2", "bg-dark"], [1, "col-12", "d-flex", "justify-content-center", "align-items-center"], [1, "btn", "btn-primary", 3, "click"], [1, "col-6", "d-flex", "justify-content-center", "align-items-center"], [1, "card", 2, "width", "155px", "height", "200px"], [1, "ques-img-2", "mt-1"], [2, "text-align", "center"], [1, "card-text"], [1, "ques-img-3", "mt-1"], [1, "ques-img-4", "mt-1"], [1, "ques-img", "mt-1"], [3, "dataUrl"]], template: function ResultComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
@@ -753,13 +753,13 @@ ResultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.result);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.result2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.result3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.result4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.result);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.dataUrl);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _result_modal_result_modal_component__WEBPACK_IMPORTED_MODULE_1__["ResultModalComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Jlc3VsdC9yZXN1bHQuY29tcG9uZW50LnNjc3MifQ== */"] });
@@ -806,7 +806,7 @@ function ListComponent_div_12_div_1_ng_container_1_Template(rf, ctx) { if (rf & 
     const ques_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r6.mustdoSerivce.getCoordinate(ques_r5));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r6.mustdoSerivce.getCoordinate2(ques_r5, "questions2"));
 } }
 function ListComponent_div_12_div_1_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
@@ -842,7 +842,7 @@ function ListComponent_div_12_div_2_ng_container_1_Template(rf, ctx) { if (rf & 
     const ques_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r13.mustdoSerivce.getCoordinate2(ques_r12, "questions2"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r13.mustdoSerivce.getCoordinate2(ques_r12, "questions3"));
 } }
 function ListComponent_div_12_div_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
@@ -878,7 +878,7 @@ function ListComponent_div_12_div_3_ng_container_1_Template(rf, ctx) { if (rf & 
     const ques_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     const ctx_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r20.mustdoSerivce.getCoordinate2(ques_r19, "questions3"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r20.mustdoSerivce.getCoordinate2(ques_r19, "questions4"));
 } }
 function ListComponent_div_12_div_3_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
@@ -914,7 +914,7 @@ function ListComponent_div_12_div_4_ng_container_1_Template(rf, ctx) { if (rf & 
     const ques_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r27.mustdoSerivce.getCoordinate2(ques_r26, "questions4"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](ctx_r27.mustdoSerivce.getCoordinate(ques_r26));
 } }
 function ListComponent_div_12_div_4_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
@@ -952,13 +952,13 @@ function ListComponent_div_12_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.mustdoSerivce.mustdo.questions);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.mustdoSerivce.mustdo.questions2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.mustdoSerivce.mustdo.questions3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.mustdoSerivce.mustdo.questions4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.mustdoSerivce.mustdo.questions);
 } }
 class ListComponent {
     constructor(mustdoSerivce, queryParamsService) {
@@ -1001,7 +1001,7 @@ class ListComponent {
     }
 }
 ListComponent.ɵfac = function ListComponent_Factory(t) { return new (t || ListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_mustdo_service__WEBPACK_IMPORTED_MODULE_1__["MustdoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_query_params_service__WEBPACK_IMPORTED_MODULE_2__["QueryParamsService"])); };
-ListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ListComponent, selectors: [["app-list"]], outputs: { nextStep: "nextStep" }, decls: 16, vars: 3, consts: [[1, "list-container"], [1, "list-header", "bg-secondary"], [1, "row", "px-1", "py-1"], [1, "col-6", "d-flex", "align-items-center", "justify-content-center"], [1, "bg-danger", "text-center", "px-2", "py-2"], ["id", "auto-scroll-list", 1, "list-body"], [4, "ngIf"], [1, "list-footer", "text-center"], ["type", "button", 1, "btn", "btn-secondary", 3, "click"], ["class", "my-5 d-flex", 3, "click", 4, "ngFor", "ngForOf"], [1, "my-5", "d-flex", 3, "click"], [1, "ques-img"], [1, "mr-auto", "ml-auto"], [1, "ques-img-2"], [1, "ques-img-3"], [1, "ques-img-4"]], template: function ListComponent_Template(rf, ctx) { if (rf & 1) {
+ListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ListComponent, selectors: [["app-list"]], outputs: { nextStep: "nextStep" }, decls: 16, vars: 3, consts: [[1, "list-container"], [1, "list-header", "bg-secondary"], [1, "row", "px-1", "py-1"], [1, "col-6", "d-flex", "align-items-center", "justify-content-center"], [1, "bg-danger", "text-center", "px-2", "py-2"], ["id", "auto-scroll-list", 1, "list-body"], [4, "ngIf"], [1, "list-footer", "text-center"], ["type", "button", 1, "btn", "btn-secondary", 3, "click"], ["class", "my-5 d-flex", 3, "click", 4, "ngFor", "ngForOf"], [1, "my-5", "d-flex", 3, "click"], [1, "ques-img-2"], [1, "mr-auto", "ml-auto"], [1, "ques-img-3"], [1, "ques-img-4"], [1, "ques-img"]], template: function ListComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
